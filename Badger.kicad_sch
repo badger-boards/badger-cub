@@ -7072,7 +7072,7 @@
 		)
 		(uuid "febb5cb0-0ad5-4562-8dc1-2a9ad8a8f1ed")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 77.47 87.63 180)
 		(effects
 			(font
@@ -7252,7 +7252,7 @@
 		)
 		(uuid "3782b2ad-d99a-43df-8c57-02b6960c5764")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 189.23 110.49 0)
 		(effects
 			(font
@@ -7332,7 +7332,7 @@
 		)
 		(uuid "64b98e81-5f3d-4d51-b9d8-d8023f56b424")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 189.23 100.33 0)
 		(effects
 			(font
@@ -7472,7 +7472,7 @@
 		)
 		(uuid "b6d4b238-aab9-458a-9174-95ab7fdf5c14")
 	)
-	(label "USB_DM"
+	(label "USB_D-"
 		(at 77.47 85.09 180)
 		(effects
 			(font
@@ -12432,7 +12432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 35.56 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -14033,7 +14033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)

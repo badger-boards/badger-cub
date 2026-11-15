@@ -69,8 +69,27 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|163300000|144000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|e7a42e83-4a3e-4e02-8188-ee9eb3654627",
+          ""
+        ],
+        [
+          "silk_edge_clearance|168216666|100000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|84018b9d-19f4-4f0f-880a-ce20234f0703",
+          ""
+        ],
+        [
+          "silk_edge_clearance|172700000|144000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|66657f99-cb68-42b4-b9f9-e943d73a1464",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -206,7 +225,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.15,
+        0.2,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -233,7 +257,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -515,6 +544,16 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.22,
+        "name": "USB_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.22,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -522,7 +561,16 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "USB_DP"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "USB_DM"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -76,20 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|163300000|144000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|e7a42e83-4a3e-4e02-8188-ee9eb3654627",
-          ""
-        ],
-        [
-          "silk_edge_clearance|168216666|100000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|84018b9d-19f4-4f0f-880a-ce20234f0703",
-          ""
-        ],
-        [
-          "silk_edge_clearance|172700000|144000000|ff84a938-eb0c-4a14-9aef-456aac9c3f5e|66657f99-cb68-42b4-b9f9-e943d73a1464",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -578,7 +565,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Badger.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

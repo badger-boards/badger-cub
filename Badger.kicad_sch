@@ -8988,6 +8988,12 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 132.08 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "2917f091-91cf-4a27-8d40-ee72764150e0")
 		)
@@ -9512,6 +9518,12 @@
 				)
 			)
 		)
+		(property "MPN" "RP2040"
+			(at 102.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "16"
 			(uuid "4b1cde57-cd64-42bc-98ea-581ea22b1ead")
 		)
@@ -9834,7 +9846,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15008"
+		(property "LCSC" "C13585"
 			(at 246.38 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9888,6 +9900,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL31A106KBHNNNE"
+			(at 246.38 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "b8d59e18-a2fb-4234-9c41-0046d2b27ab7")
@@ -10025,6 +10043,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "0603WAF1001T5E"
+			(at 40.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "c5bc0566-8ff3-4ea9-a0f5-e9c1011eabc6")
@@ -10184,7 +10208,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C82942"
+		(property "LCSC" "C51118"
 			(at 226.06 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10238,6 +10262,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "AP2112K-3.3TRG1"
+			(at 226.06 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "5"
 			(uuid "635633e5-a9ad-4d23-9c3e-393ca20ca667")
@@ -10689,6 +10719,12 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 64.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "d0d91742-4963-417a-83fd-2f0e33aa4fa4")
 		)
@@ -10825,6 +10861,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 120.65 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "832c328a-98b0-412c-a28e-330514d82eab")
@@ -10964,6 +11006,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 281.94 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "f8d51c5b-8481-45fb-a21c-2efa58cdb3cc")
 		)
@@ -11100,6 +11148,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 214.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "58592544-917d-4a92-98a1-bf6f78e2d0fd")
@@ -11629,6 +11683,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 30.48 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "91078526-61dd-46a8-b463-274b6f65073b")
 		)
@@ -11922,6 +11982,12 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 85.09 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "b4a3dc43-2943-4784-a4a7-1c3eeb7064f4")
 		)
@@ -12058,6 +12124,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 248.92 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "8afe6aa9-61ab-4e7a-b8a0-299906dbaf5a")
@@ -12274,6 +12346,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 144.78 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "e52849d6-ebc8-4834-b7c7-dad997da6341")
 		)
@@ -12410,6 +12488,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 43.18 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "665f683d-646b-4333-8f42-272b00c8e785")
@@ -12550,6 +12634,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 224.79 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "c7b4de81-7731-4f03-9fde-2c31a84bbbad")
 		)
@@ -12686,6 +12776,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 41.91 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "29a3b02d-cda2-4f4a-a0cd-96a480a271cb")
@@ -12927,6 +13023,12 @@
 				)
 			)
 		)
+		(property "MPN" "W25Q32JVSSIQ"
+			(at 198.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "67eed05a-81e0-4c45-924a-528909915099")
 		)
@@ -13160,6 +13262,12 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 54.61 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "91992521-ef0c-4fa7-b568-c8851dc41847")
 		)
@@ -13387,6 +13495,12 @@
 				)
 			)
 		)
+		(property "MPN" "0603WAF270JT5E"
+			(at 185.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "927d3bbd-ba99-4877-b638-52810ef8b012")
 		)
@@ -13521,6 +13635,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "0603WAF5101T5E"
+			(at 189.23 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "de6855f7-01d5-43ed-85ce-52adca49f7c2")
@@ -13659,6 +13779,12 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 71.12 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "c0c88f62-77e5-487c-9e76-7f8176149d40")
 		)
@@ -13774,7 +13900,7 @@
 				)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
+		(property "Value" "AO3400A"
 			(at 162.56 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13904,6 +14030,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "AO3400A"
+			(at 162.56 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "86e6f8fc-1241-4165-b4a0-401f10334fa8")
@@ -14277,6 +14409,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 219.71 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "6b85be40-712a-4b85-b553-541800c4a4dd")
@@ -14797,6 +14935,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 229.87 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "e3ba3c11-4d81-4efe-909a-72bdf207fd8d")
 		)
@@ -14879,7 +15023,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8598"
+		(property "LCSC" "C82046"
 			(at 198.12 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -14933,6 +15077,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "MBR0530T1G"
+			(at 198.12 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "ddc8ef64-058c-4383-b095-96775b737454")
@@ -15146,6 +15296,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "0603WAF270JT5E"
+			(at 185.42 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "bd1a9735-2011-4716-bf6c-e79869ee8592")
@@ -15439,6 +15595,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 256.54 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "9e84fe04-87b6-4172-88a8-f6ecf6726145")
@@ -15755,7 +15917,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8598"
+		(property "LCSC" "C82046"
 			(at 128.27 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15809,6 +15971,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "MBR0530T1G"
+			(at 128.27 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "5554e7ba-0fb4-4eb3-b544-a4ec4eebefac")
@@ -15944,6 +16112,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 35.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "4e07416a-1536-4896-b2c9-b7bab870b00e")
@@ -16401,6 +16575,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 266.7 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "6bd022ed-abf5-4e06-859b-065c339ef188")
 		)
@@ -16561,7 +16741,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8598"
+		(property "LCSC" "C82046"
 			(at 189.23 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -16615,6 +16795,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "MBR0530T1G"
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "d8bc961b-d549-41e6-adfd-f6b6b44d8b01")
@@ -16750,6 +16936,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "0603WAF5101T5E"
+			(at 189.23 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "ff7ae5c3-0843-476e-b66d-3ef78c0f8c4d")
@@ -16887,6 +17079,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 96.52 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "18190d79-c066-4aed-bfb6-e5e94cf02075")
@@ -17596,6 +17794,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 57.15 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "a2ac36a2-f03e-454e-9868-3967124644a9")
@@ -18332,6 +18536,12 @@
 				)
 			)
 		)
+		(property "MPN" "TS-1187A-B-A-B"
+			(at 59.69 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "71068d90-2cd6-488d-807e-d2a0ca4a88bd")
 		)
@@ -18545,6 +18755,12 @@
 				)
 			)
 		)
+		(property "MPN" "TYPE-C-31-M-12"
+			(at 170.18 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "A7"
 			(uuid "03b63754-d55d-45a0-8b30-ad24c3dd0aae")
 		)
@@ -18720,6 +18936,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A225KO8NNNC"
+			(at 236.22 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "3b59a7b7-f883-4240-bdde-1d050f767e2c")
@@ -18937,6 +19159,12 @@
 				)
 			)
 		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 287.02 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "1"
 			(uuid "9d107eec-33f8-455c-9249-1235acd7d797")
 		)
@@ -19074,6 +19302,12 @@
 				)
 			)
 		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 109.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
 		(pin "2"
 			(uuid "2144dcee-2ed7-4a4c-9a88-71a75cfdf9ee")
 		)
@@ -19111,7 +19345,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x24_Socket"
+		(property "Value" "FH12-24S-0.5SH(55)"
 			(at 245.11 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19154,7 +19388,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2856805"
+		(property "LCSC" "C202112"
 			(at 243.84 33.02 90)
 			(hide yes)
 			(show_name no)
@@ -19208,6 +19442,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "FH12-24S-0.5SH(55)"
+			(at 243.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "12"
 			(uuid "5deeb059-39d8-4476-9d91-fd8d4f439b6e")
@@ -19489,6 +19729,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 276.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "2a36b9eb-9849-4639-9971-87ce4c46974c")

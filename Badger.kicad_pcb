@@ -15893,14 +15893,13 @@
 	(gr_rect
 		(start 149.3 97.7)
 		(end 187.7 146.5)
-		(radius 1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "7fc6251a-f562-49f5-aae9-ca0baf3f8cfd")
+		(uuid "6d5bfed2-cb5d-49ad-b411-b7b363fe6352")
 	)
 	(gr_text "3V3"
 		(at 179.73 134.05 0)

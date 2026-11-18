@@ -1,0 +1,16 @@
+(version 2)
+
+(rule "usb_90ohm_pair_gap"
+	(condition "(A.NetName == '/USB_D+' || A.NetName == '/USB_D-' || A.NetName == '/D+_RAW' || A.NetName == '/D-_RAW') && (B.NetName == '/USB_D+' || B.NetName == '/USB_D-' || B.NetName == '/D+_RAW' || B.NetName == '/D-_RAW')")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "boost_loop_min_width"
+	(condition "A.NetName == '+5V' || A.NetName == '/FET_DRN' || A.NetName == 'Net-(D1-A)'")
+	(constraint track_width (min 0.35mm) (opt 0.4mm))
+)
+
+(rule "fpc_power_neckdown"
+	(condition "A.NetName == '/PREVGH' || A.NetName == '/PREVGL' || A.NetName == '/FET_SRC'")
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+)

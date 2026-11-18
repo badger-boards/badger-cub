@@ -3273,6 +3273,122 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GND_3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4772,6 +4888,148 @@
 				)
 			)
 			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_2_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_2_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -7190,6 +7448,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 21.59) (xy 176.53 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714798e1-7773-45a0-9578-46b9ad451441")
+	)
+	(wire
+		(pts
 			(xy 185.42 137.16) (xy 189.23 137.16)
 		)
 		(stroke
@@ -7920,6 +8188,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 13.97) (xy 176.53 11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8e5ab2-b9bd-4e45-8fb1-247ceb891719")
+	)
+	(wire
+		(pts
 			(xy 261.62 57.15) (xy 261.62 58.42)
 		)
 		(stroke
@@ -8407,6 +8685,16 @@
 			(justify right bottom)
 		)
 		(uuid "af48302c-fb16-4c78-82c0-351fb8471cde")
+	)
+	(label "FET_GAT"
+		(at 176.53 11.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afc65b24-38b5-445c-bfdb-3b3f7ff2b58b")
 	)
 	(label "RUN"
 		(at 64.77 128.27 270)
@@ -9393,6 +9681,71 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 176.53 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10d40c6b-f029-40d5-91fa-792b6378f0f2")
+		(property "Reference" "#PWR042"
+			(at 176.53 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Value" "GND"
+			(at 176.53 27.94 0)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Footprint" ""
+			(at 176.53 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b44bb06-702e-44b6-ba03-1c57af8e7102")
+		)
+		(instances
+			(project "Badger"
+				(path "/47e8e31c-218c-4e3c-bb58-e11d469e1e81"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 246.38 130.81 0)
 		(unit 1)
@@ -9989,7 +10342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "47uH"
 			(at 133.35 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10000,7 +10353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR4030S"
 			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10386,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C90321"
+		(property "LCSC" "C167888"
 			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -10088,7 +10441,7 @@
 				)
 			)
 		)
-		(property "MPN" "CBC3225T100KR"
+		(property "MPN" "FNR4030S470MT"
 			(at 132.08 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12057,10 +12410,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "495a82da-df66-4ac4-b999-183cfe517bec")
 		(property "Reference" "C24"
@@ -13721,11 +14074,21 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Value" "GND"
 			(at 68.58 69.85 0)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint" ""
 			(at 72.39 69.85 0)
@@ -14296,10 +14659,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "78b1de90-1b9a-4817-b37d-26d707c87448")
 		(property "Reference" "C25"
 			(at 231.648 55.626 0)
@@ -16519,6 +16882,89 @@
 		)
 	)
 	(symbol
+		(lib_name "R_2")
+		(lib_id "Device:R")
+		(at 176.53 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5d4571b-39c2-4eaa-a269-49cd390a83f8")
+		(property "Reference" "R9"
+			(at 179.07 16.51 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 179.07 19.05 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Datasheet" ""
+			(at 176.53 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Boost MOSFET gate pull-down (GDEY0213B74 reference R1)"
+			(at 176.53 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "LCSC" "C22935"
+			(at 176.53 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "MPN" "0603WAF1004T5E"
+			(at 176.53 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(pin "1"
+			(uuid "03d9c36d-ed41-408e-92ba-86851c9b7ce7")
+		)
+		(pin "2"
+			(uuid "b67ded63-c975-4017-bf0f-8bf00de4bc11")
+		)
+		(instances
+			(project "Badger"
+				(path "/47e8e31c-218c-4e3c-bb58-e11d469e1e81"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 132.08 24.13 0)
 		(unit 1)
@@ -17147,7 +17593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47"
+		(property "Value" "2.2"
 			(at 152.4 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17191,7 +17637,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23411"
+		(property "LCSC" "C22939"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17246,7 +17692,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF470LT5E"
+		(property "MPN" "0603WAF220KT5E"
 			(at 149.86 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17599,7 +18045,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "4.7uF"
 			(at 200.66 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17643,7 +18089,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C69335"
 			(at 196.85 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17697,6 +18143,12 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "CL10A475KA8NQNC"
+			(at 196.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "1"
 			(uuid "0a60c505-d868-46b8-ae9c-13f68fa0eef2")

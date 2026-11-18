@@ -17391,14 +17391,6 @@
 		(uuid "e6e48415-e94f-4ecc-8a51-c906874ebba1")
 	)
 	(segment
-		(start 165.65 131.65)
-		(end 165.7 131.6)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "050d5777-3efd-44c3-b94a-0a6717c9c405")
-	)
-	(segment
 		(start 162.35 115.075)
 		(end 162.35 116.8)
 		(width 0.3)
@@ -17583,14 +17575,6 @@
 		(uuid "5e46062c-280e-4595-b7e8-54554dbef9fa")
 	)
 	(segment
-		(start 165.641032 131.658968)
-		(end 165.65 131.65)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "609c02a8-98cd-4f77-a536-b04cbea09247")
-	)
-	(segment
 		(start 163.68 140.37)
 		(end 162 138.69)
 		(width 0.2)
@@ -17711,14 +17695,6 @@
 		(uuid "996eb09b-831a-4ce1-80a8-fbf624824467")
 	)
 	(segment
-		(start 170.460849 131.012707)
-		(end 170.460849 132.842955)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "997bdda4-e06c-4fbf-9f37-29b6cfb264f9")
-	)
-	(segment
 		(start 151.825 137.55)
 		(end 152.125 137.55)
 		(width 0.2)
@@ -17797,14 +17773,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "d3cd3407-8325-4e8c-8b93-0b667e915852")
-	)
-	(segment
-		(start 165.641032 132.831479)
-		(end 165.641032 131.658968)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "d6210f7b-666e-4259-b709-2facc13ca351")
 	)
 	(segment
 		(start 164.595 139.955)
@@ -18005,14 +17973,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "3b3aedb3-82cc-4293-8c4d-5c4c905984a9")
-	)
-	(via
-		(at 165.65 131.65)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "3c156c99-5112-415d-b6bc-3973ce414b7a")
 	)
 	(via
 		(at 171.8 109)
@@ -18365,14 +18325,6 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "bf060ca2-c62a-4746-b393-10b2c7e42d5e")
-	)
-	(segment
-		(start 165.7 131.6)
-		(end 165.65 131.65)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "c12f099e-e481-47e7-b647-a1db65f4b24c")
 	)
 	(segment
 		(start 165.4 107.675)
@@ -20945,7 +20897,7 @@
 	(segment
 		(start 168.2 134.7625)
 		(end 168.2 133.55)
-		(width 0.3)
+		(width 0.4)
 		(layer "F.Cu")
 		(net "+5V")
 		(uuid "84bd1c6d-edf6-46ee-8107-ff8e09cae8aa")

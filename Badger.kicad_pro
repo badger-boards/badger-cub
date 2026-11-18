@@ -163,7 +163,7 @@
       ],
       "drc_exclusions": [],
       "meta": {
-        "version": 3
+        "version": 4
       },
       "rule_severities": {
         "annular_width": "error",
@@ -765,7 +765,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "mfg/singleboard/",
       "specctra_dsn": "",
       "step": "Badger.step",
       "vrml": ""

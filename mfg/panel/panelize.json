@@ -1,0 +1,46 @@
+{
+  "layout": {
+    "type": "grid",
+    "rows": 2,
+    "cols": 2,
+    "hspace": "0mm",
+    "vspace": "0mm",
+    "rotation": "180deg",
+    "alternation": "rows",
+    "renamenet": "Board_{n}-{orig}",
+    "renameref": "{orig}",
+    "baketext": true
+  },
+  "source": {
+    "type": "auto",
+    "tolerance": "3mm"
+  },
+  "tabs": {
+    "type": "full"
+  },
+  "cuts": {
+    "type": "vcuts",
+    "layer": "Edge.Cuts",
+    "clearance": "0.4mm",
+    "cutcurves": false,
+    "linewidth": "0.1mm",
+    "endprolongation": "0mm",
+    "textprolongation": "0mm",
+    "template": ""
+  },
+  "framing": {
+    "type": "none"
+  },
+  "tooling": {
+    "type": "none"
+  },
+  "fiducials": {
+    "type": "none"
+  },
+  "post": {
+    "type": "auto",
+    "origin": "tl",
+    "reconstructarcs": true,
+    "refillzones": true
+  }
+}

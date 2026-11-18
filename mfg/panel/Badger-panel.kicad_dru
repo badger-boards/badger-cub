@@ -1,0 +1,58 @@
+(version 1)
+
+(rule "Board_0-usb_90ohm_pair_gap"
+	(condition "(A.NetName == 'Board_0-/USB_D+' || A.NetName == 'Board_0-/USB_D-' || A.NetName == 'Board_0-/D+_RAW' || A.NetName == 'Board_0-/D-_RAW') && (B.NetName == 'Board_0-/USB_D+' || B.NetName == 'Board_0-/USB_D-' || B.NetName == 'Board_0-/D+_RAW' || B.NetName == 'Board_0-/D-_RAW')")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Board_0-boost_loop_min_width"
+	(condition "A.NetName == 'Board_0-+5V' || A.NetName == 'Board_0-/FET_DRN' || A.NetName == 'Board_0-Net-(D1-A)'")
+	(constraint track_width (min 0.35mm) (opt 0.4mm))
+)
+
+(rule "Board_0-fpc_power_neckdown"
+	(condition "A.NetName == 'Board_0-/PREVGH' || A.NetName == 'Board_0-/PREVGL' || A.NetName == 'Board_0-/FET_SRC'")
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+)
+(rule "Board_1-usb_90ohm_pair_gap"
+	(condition "(A.NetName == 'Board_1-/USB_D+' || A.NetName == 'Board_1-/USB_D-' || A.NetName == 'Board_1-/D+_RAW' || A.NetName == 'Board_1-/D-_RAW') && (B.NetName == 'Board_1-/USB_D+' || B.NetName == 'Board_1-/USB_D-' || B.NetName == 'Board_1-/D+_RAW' || B.NetName == 'Board_1-/D-_RAW')")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Board_1-boost_loop_min_width"
+	(condition "A.NetName == 'Board_1-+5V' || A.NetName == 'Board_1-/FET_DRN' || A.NetName == 'Board_1-Net-(D1-A)'")
+	(constraint track_width (min 0.35mm) (opt 0.4mm))
+)
+
+(rule "Board_1-fpc_power_neckdown"
+	(condition "A.NetName == 'Board_1-/PREVGH' || A.NetName == 'Board_1-/PREVGL' || A.NetName == 'Board_1-/FET_SRC'")
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+)
+(rule "Board_2-usb_90ohm_pair_gap"
+	(condition "(A.NetName == 'Board_2-/USB_D+' || A.NetName == 'Board_2-/USB_D-' || A.NetName == 'Board_2-/D+_RAW' || A.NetName == 'Board_2-/D-_RAW') && (B.NetName == 'Board_2-/USB_D+' || B.NetName == 'Board_2-/USB_D-' || B.NetName == 'Board_2-/D+_RAW' || B.NetName == 'Board_2-/D-_RAW')")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Board_2-boost_loop_min_width"
+	(condition "A.NetName == 'Board_2-+5V' || A.NetName == 'Board_2-/FET_DRN' || A.NetName == 'Board_2-Net-(D1-A)'")
+	(constraint track_width (min 0.35mm) (opt 0.4mm))
+)
+
+(rule "Board_2-fpc_power_neckdown"
+	(condition "A.NetName == 'Board_2-/PREVGH' || A.NetName == 'Board_2-/PREVGL' || A.NetName == 'Board_2-/FET_SRC'")
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+)
+(rule "Board_3-usb_90ohm_pair_gap"
+	(condition "(A.NetName == 'Board_3-/USB_D+' || A.NetName == 'Board_3-/USB_D-' || A.NetName == 'Board_3-/D+_RAW' || A.NetName == 'Board_3-/D-_RAW') && (B.NetName == 'Board_3-/USB_D+' || B.NetName == 'Board_3-/USB_D-' || B.NetName == 'Board_3-/D+_RAW' || B.NetName == 'Board_3-/D-_RAW')")
+	(constraint clearance (min 0.15mm))
+)
+
+(rule "Board_3-boost_loop_min_width"
+	(condition "A.NetName == 'Board_3-+5V' || A.NetName == 'Board_3-/FET_DRN' || A.NetName == 'Board_3-Net-(D1-A)'")
+	(constraint track_width (min 0.35mm) (opt 0.4mm))
+)
+
+(rule "Board_3-fpc_power_neckdown"
+	(condition "A.NetName == 'Board_3-/PREVGH' || A.NetName == 'Board_3-/PREVGL' || A.NetName == 'Board_3-/FET_SRC'")
+	(constraint track_width (min 0.2mm) (opt 0.25mm))
+)

@@ -9259,7 +9259,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24"
+		(property "Value" "12MHz"
 			(at 156.21 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9324,7 +9324,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9002"
+		(property "LCSC" "C20625731"
 			(at 156.21 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9356,6 +9356,18 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "ABM8-272-T3"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
+		)
+		(property "Alt_LCSC" "C362368 (Yajingxin TXM12M0004322CBCDO00T, use 12pF caps)"
+			(at 156.21 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace yes)
 		)
 		(pin "2"
 			(uuid "6691f28c-ff77-4714-adef-efdec8c9651e")
@@ -9697,11 +9709,21 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Value" "GND"
 			(at 176.53 27.94 0)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Footprint" ""
 			(at 176.53 24.13 0)
@@ -14450,7 +14472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "15pF"
 			(at 151.13 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,7 +14516,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1663"
+		(property "LCSC" "C1644"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14549,7 +14571,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10C330JB8NNNC"
+		(property "MPN" "CL10C150JB8NNNC"
 			(at 147.32 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16920,6 +16942,11 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "Datasheet" ""
 			(at 176.53 17.78 0)
@@ -16936,18 +16963,33 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "LCSC" "C22935"
 			(at 176.53 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(property "MPN" "0603WAF1004T5E"
 			(at 176.53 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "03d9c36d-ed41-408e-92ba-86851c9b7ce7")
@@ -17741,7 +17783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33pF"
+		(property "Value" "15pF"
 			(at 168.91 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17785,7 +17827,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1663"
+		(property "LCSC" "C1644"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17840,7 +17882,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10C330JB8NNNC"
+		(property "MPN" "CL10C150JB8NNNC"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -18149,6 +18191,11 @@
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
 			(uuid "0a60c505-d868-46b8-ae9c-13f68fa0eef2")
